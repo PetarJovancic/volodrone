@@ -7,6 +7,10 @@
 
 > Simple drone simulation app written in python.
 
+### Architecture Graph
+
+[Architecture Graph](volodrone_architecture.png)
+
 ### Requirements
 
 - Python 3.9
