@@ -1,0 +1,16 @@
+# Python-related
+__pycache__/
+.pytest_cache/
+tests/__pycache__
+volodrone/__pycache__
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual environments
+venv/
+env/
+.venv/
+.vscode/
