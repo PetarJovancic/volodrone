@@ -9,7 +9,7 @@
 
 ### Architecture Graph
 
-[Architecture Graph](volodrone_architecture.png)
+![Architecture Graph](volodrone_architecture.png)
 
 ### Requirements
 
