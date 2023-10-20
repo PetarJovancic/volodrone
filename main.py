@@ -7,17 +7,17 @@ if __name__ == "__main__":
     drone_start = [5, 5, 5]  # Starting position of the drone
 
     # Commands for steering the drone:
-    commands = ["01, LEFT, 2",
-                "02, UP, 2",
-                "03, RIGHT, 1",
-                "04, DOWN, 1",
-                "05, BACKWARD, 2",
-                "06, FORWARD, 1"]
+    # commands = ["01, LEFT, 2",
+    #             "02, UP, 2",
+    #             "03, RIGHT, 1",
+    #             "04, DOWN, 1",
+    #             "05, BACKWARD, 2",
+    #             "06, FORWARD, 1"]
     # commands = ["01, LEFT, 2",
     #             "02, UP, 2",
     #             "03, RIGHT, 1"]
     # commands = ["01, LEFT, 10"]
-    # commands = ["01, LEFT, 10"]
+    commands = ["01, LEFT, 20"]
 
     logging.basicConfig(level=logging.INFO)
     controller = VolodroneController(world_dimensions, drone_start)

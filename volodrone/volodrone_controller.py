@@ -55,7 +55,10 @@ class VolodroneController:
                 self.logger.warning('CRASH IMMINENT'
                                     ' - AUTOMATIC COURSE CORRECTION')
                 # Adjust the movement vector to avoid collision
-                self.movement_vector[i] = round(self.movement_vector[i]/2)
+                self.correction = round(self.movement_vector[i]/2)
+                if self.correction >= 10:
+                    self.correction = 5
+                self.movement_vector[i] = self.correction
                 self.current_position[i] = \
                     self.current_position[i] - self.movement_vector[i]
 
