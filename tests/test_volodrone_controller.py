@@ -18,7 +18,7 @@ def test_calc_total_distance(volodrone_controller):
     assert volodrone_controller.total_distance == 6
 
 def test_avoid_obstacles(volodrone_controller):
-    volodrone_controller.movement_vector = [-10, 0, 0]
+    volodrone_controller.movement_vector = [-20, 0, 0]
     volodrone_controller.update_position()
     volodrone_controller.avoid_obstacles()
     assert volodrone_controller.current_position == [0, 5, 5]
